@@ -1,5 +1,5 @@
 /* (C)2022 */
-package com.example;
+package demo.src.main.java.com.example;
 
 /** Hello world! */
 public class App {
