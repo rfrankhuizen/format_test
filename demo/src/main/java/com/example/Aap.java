@@ -18,6 +18,6 @@ public class Aap {
 
     public boolean isGoodTreeClimber() {
 
-        return tailLength >= 50000;
+        return tailLength >= 3;
     }
 }
