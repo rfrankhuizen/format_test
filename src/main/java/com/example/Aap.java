@@ -1,5 +1,5 @@
 /* (C)2022 */
-package demo.src.main.java.com.example;
+package src.main.java.com.example;
 
 public class Aap {
 
@@ -9,16 +9,22 @@ public class Aap {
     public Aap(String name, int tailLength) {
         this.name = name;
 
-        this.tailLength = tailLength;
+        this.tailLength                                         = tailLength;
     }
 
     public void call() {
-
+        
         System.err.println(name + " does not respond to your call");
     }
 
     public boolean isGoodTreeClimber() {
 
         return tailLength >= 3;
+    }
+    
+    public int    dingetje() {
+        return            77;
+                
+        
     }
 }
