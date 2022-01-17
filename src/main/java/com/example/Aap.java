@@ -19,7 +19,7 @@ public class Aap {
 
     public boolean isGoodTreeClimber() {
 
-        return tailLength >= 4324;
+        return tailLength >= 3848347;
     }
 
     public int dingetje() {
