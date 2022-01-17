@@ -9,11 +9,11 @@ public class Aap {
     public Aap(String name, int tailLength) {
         this.name = name;
 
-        this.tailLength                                         = tailLength;
+        this.tailLength = tailLength;
     }
 
     public void call() {
-        
+
         System.err.println(name + " does not respond to your call");
     }
 
@@ -21,10 +21,8 @@ public class Aap {
 
         return tailLength >= 3;
     }
-    
-    public int    dingetje() {
-        return                  4343477;
-                
-        
+
+    public int dingetje() {
+        return 4343477;
     }
 }
